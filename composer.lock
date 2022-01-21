@@ -4,68 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a635727115a54b422037264ec71d1015",
-    "packages": [
-        {
-            "name": "phpxmlrpc/phpxmlrpc",
-            "version": "4.6.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/gggeek/phpxmlrpc.git",
-                "reference": "b9401ffa2174663e376dcbb3aadba09eb62d8d19"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/gggeek/phpxmlrpc/zipball/b9401ffa2174663e376dcbb3aadba09eb62d8d19",
-                "reference": "b9401ffa2174663e376dcbb3aadba09eb62d8d19",
-                "shasum": ""
-            },
-            "require": {
-                "ext-xml": "*",
-                "php": "^5.3.0 || ^7.0 || ^8.0"
-            },
-            "conflict": {
-                "phpxmlrpc/extras": "<= 0.6.3"
-            },
-            "require-dev": {
-                "docbook/docbook-xsl": "^1.79",
-                "ext-curl": "*",
-                "ext-dom": "*",
-                "ext-mbstring": "*",
-                "ext-xsl": "*",
-                "indeyets/pake": "^1.99",
-                "phpunit/phpunit": "^5.0 || ^8.5.14",
-                "phpunit/phpunit-selenium": "*",
-                "yoast/phpunit-polyfills": "*"
-            },
-            "suggest": {
-                "ext-curl": "Needed for HTTPS and HTTP 1.1 support, NTLM Auth etc...",
-                "ext-mbstring": "Needed to allow reception of requests/responses in character sets other than ASCII,LATIN-1,UTF-8",
-                "ext-zlib": "Needed for sending compressed requests and receiving compressed responses, if cURL is not available",
-                "phpxmlrpc/extras": "Adds more featured Server classes and other useful bits",
-                "phpxmlrpc/jsonrpc": "Adds support for the JSON-RPC protocol",
-                "sami/sami": "Required for doc generation using pake. Version constraints: ^3.3 || ^4.1"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "PhpXmlRpc\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "description": "A php library for building xmlrpc clients and servers",
-            "homepage": "https://gggeek.github.io/phpxmlrpc/",
-            "keywords": [
-                "webservices",
-                "xml-rpc",
-                "xmlrpc"
-            ],
-            "time": "2021-12-09T18:28:20+00:00"
-        }
-    ],
+    "content-hash": "4ccd45d27a77a02eafdafa61e50ef6c0",
+    "packages": [],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
