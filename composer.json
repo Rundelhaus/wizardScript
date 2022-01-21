@@ -1,0 +1,7 @@
+{
+    "require": {
+        "phpxmlrpc/phpxmlrpc": "^4",
+        "ext-xmlrpc": "^7.4",
+        "ext-curl": "^7.4"
+    }
+}
